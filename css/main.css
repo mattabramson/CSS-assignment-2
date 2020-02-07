@@ -106,27 +106,33 @@ section {
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
 
-a:link{
-  color: #0000E6;
-}
-a:visited {
-  color: #72008F;
-}
-a:focus {
-  color: #005366;
-}
-a:hover {
-  color: #003D00;
-}
-a:active {
-color: #AD0006;
-}
-nav a {
+a {
   text-decoration: none;
 }
-nav a:visited {
+a:link {
   color: #40B9C9;
 }
-nav a:hover {
+a:visited {
+  color: #40B9C9;
+}
+a:hover {
   color: #9EF4FF;
+}
+article a{
+  text-decoration: underline;
+}
+article a:link {
+  color: #0000E6;
+}
+article a:visited {
+  color: #72008F;
+}
+article a:focus {
+  color: #003D00;
+}
+article a:hover {
+  color: #003D00;
+}
+article a:active {
+  color: #AD0006;
 }
