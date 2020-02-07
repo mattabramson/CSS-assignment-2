@@ -57,13 +57,13 @@ img {
   max-width: 100%; /* DO NOT delete or change this line */
   }
 #cougar {
-  background: #CCC;
+  background: #FFE7D1;
 }
 #lion {
-  background: #FFD5AE;
+  background: #EBEBEB;
 }
 #tiger {
-  background: #DDD;
+  background: #FDF1E8;
 }
 section {
   max-width: 600px;
@@ -117,22 +117,22 @@ a:visited {
 }
 a:hover {
   color: #9EF4FF;
-}
+ }
 article a{
   text-decoration: underline;
 }
 article a:link {
-  color: #0000E6;
+  color: #0A0AFF;
 }
 article a:visited {
-  color: #72008F;
+  color: #7900A8;
 }
 article a:focus {
-  color: #003D00;
+  color: #005700;
 }
 article a:hover {
-  color: #003D00;
+  color: #005700;
 }
 article a:active {
-  color: #AD0006;
+  color: #9E0005;
 }
