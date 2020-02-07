@@ -1,15 +1,87 @@
 /* you will add css rules for element selectors and IDs */
-
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
 
 /* you may add to or change the body rule */
 body {
-    font-family: sans-serif;
-    color: #fff;
-    background: #000;
+  font-family: sans-serif;
+  color: #fff;
+  background: #000;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  text-align: center;
+}
+header {
+  padding: 2rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  margin: 0;
+  margin-left: 1rem;
+  font-size: 2rem;
+  padding: .3rem;
+  color: #40B9C9;
+  text-transform: uppercase;
+}
+footer {
+  padding: 1rem;
+}
+footer p{
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 img {
-    max-width: 100%; /* DO NOT delete or change this line */
+  max-width: 100%; /* DO NOT delete or change this line */
+  }
+#cougar {
+  background: #CCC;
 }
+#lion {
+  background: #FFD5AE;
+}
+#tiger {
+  background: #DDD;
+}
+section {
+  max-width: 600px;
+}
+.text {
+  color: #000;
+  background: #FFF;
+  padding: 3rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+.photo {
+  color: #000;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
 
 /* ----- SUGGESTED COLORS -----
     - ARTICLES
@@ -34,9 +106,27 @@ img {
 /* --- you may ADD other link pseudo classes for
         specific articles or sections to improve CONTRAST --- */
 
-a {
-    color: #379CB2;
+a:link{
+  color: #0000E6;
+}
+a:visited {
+  color: #72008F;
+}
+a:focus {
+  color: #005366;
 }
 a:hover {
-    color: #82E8FF;
+  color: #003D00;
+}
+a:active {
+color: #AD0006;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:visited {
+  color: #40B9C9;
+}
+nav a:hover {
+  color: #9EF4FF;
 }
