@@ -1,0 +1,134 @@
+/* you will add css rules for element selectors and IDs */
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+/* you may add to or change the body rule */
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background: #1F1F1F;
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+header {
+  padding: 2rem;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  margin: 0;
+  margin-left: 1rem;
+  font-size: 2rem;
+  padding: .3rem;
+  color: #40B9C9;
+  text-transform: uppercase;
+}
+footer {
+  padding: 1rem;
+}
+footer p{
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+}
+img {
+  max-width: 100%; /* DO NOT delete or change this line */
+  }
+#cougar {
+  background: #FFE7D1;
+}
+#lion {
+  background: #EBEBEB;
+}
+#tiger {
+  background: #FDF1E8;
+}
+section {
+  max-width: 600px;
+  margin: 0 3rem 3rem 3rem;
+}
+.text {
+  color: #000;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.photo {
+  color: #000;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #40B9C9;
+}
+a:visited {
+  color: #40B9C9;
+}
+a:hover {
+  color: #9EF4FF;
+ }
+article a{
+  text-decoration: underline;
+}
+article a:link {
+  color: #0A0AFF;
+}
+article a:visited {
+  color: #7900A8;
+}
+article a:focus {
+  color: #005700;
+}
+article a:hover {
+  color: #005700;
+}
+article a:active {
+  color: #9E0005;
+}
